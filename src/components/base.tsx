@@ -1,6 +1,6 @@
 import * as elements from "typed-html"
 
-export const BaseHTML = function getBaseHTML({ children }: elements.Children){
+export const BaseHTML = function getBaseHTML({ children }: elements.Children) {
     return `
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,8 @@ export const BaseHTML = function getBaseHTML({ children }: elements.Children){
     <meta name="description" content="todo mvc using BETH stack">
     <title>Todo MVC | BETH stack</title>
     <script src="https://unpkg.com/htmx.org@1.9.3" defer></script>
+    <link href="/styles.css" rel="stylesheet">
 </head>
 ${children} 
 `;
-} 
+}

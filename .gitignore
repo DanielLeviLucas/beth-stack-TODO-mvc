@@ -63,6 +63,9 @@ web_modules/
 
 \*.tsbuildinfo
 
+# tailwind buid gen files
+tailwind-gen
+
 # Optional npm cache directory
 
 .npm
